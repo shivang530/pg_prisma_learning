@@ -15,6 +15,7 @@ datasource db {
 
 // can use superbase or neondb for the free datasource
 // npx prisma studio to view the database
+// npx prisma migrate dev --name init --preview-feature to create the database
 
 model Post {
   id        Int      @id @default(autoincrement())
